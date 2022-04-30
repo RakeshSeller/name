@@ -1,8 +1,8 @@
-#Created by @xD_Comrade
+#Created by @Mr_RAJx
 
 from motor.motor_asyncio import AsyncIOMotorClient as MG
 
-mongoc = MG("Your MongoDB here")
+mongoc = MG("mongodb+srv://raj:rajfiles@rajfiles.0qjk6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = mongoc.Crypto
 
 msgdb = db.Messages
